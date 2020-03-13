@@ -1,0 +1,115 @@
+#index-main{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+/* 顶部栏 */
+#index-main #index-header{
+    position: absolute;
+    top: 0;
+    left: 200px;
+    right: 0;
+    height: 60px;
+    padding: 10px;
+    box-sizing: border-box;
+    background: linear-gradient(to left, #162455, #2e4c8a);
+}
+
+#index-main #index-header .bread-box{
+    width: 200px;
+}
+
+#index-main #index-header .bread-box .breadcrumb{
+    background-color: transparent;
+    color: #28d2c3;
+}
+
+/* 主要内容 */
+#index-main #index-content{
+    position: absolute;
+    right: 0;
+    top: 60px;
+    bottom: 0;
+    left: 200px;
+    /* background: linear-gradient(to left bottom, #162455, #3f5994); */
+    box-sizing: border-box;
+    pad: 18px;
+}
+
+/* 导航栏 */
+#index-main #index-nav{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 200px;
+    background: linear-gradient(to bottom, #2e4c8a, #0e1b48);
+}
+
+#index-main #index-nav .avatar .h3{
+    color: #FFF;
+    font-family: 'Segoe SCRIPT', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#index-nav .navi {
+    text-align: left;
+}
+#index-nav .avatar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+#index-nav .navi .nav-item .nav-title{
+    width: 100%;
+    line-height: 48px;
+    color: #28d2c3;
+    display: inline-block;
+    padding: 0 20px;
+    position: relative;
+}
+
+#index-nav .navi .nav-item .nav-title .arrow, #index-nav .navi .nav-item .nav-link .arrow{
+    position: absolute;
+    right: 10px;
+    top: 16px;
+}
+
+#index-nav .navi .nav-item .collapse{
+    width: 100%;
+}
+
+#index-nav .navi .nav-item .nav-link{
+    width: 100%;
+    line-height: 42px;
+    padding-left: 31px;
+    color: #28d2c3;
+    /* font-weight: 500; */
+    height: 42px;
+    display: inline-block;
+    position: relative;
+}
+
+#index-nav .navi .nav-item .link-icon{
+    margin-right: 15px;
+}
+
+
+#index-nav .navi .nav-item .nav-title .menu-icon{
+    margin-right: 15px;
+}
+
+#index-nav .navi .nav-item{
+    transition: all .5s linear;
+    margin: 10px 0;
+}
+
+#index-nav .navi .nav-item .active-item, #index-nav .navi .nav-item .active-item .nav-link{
+    transition: all .5s linear;
+    background: #192a60;
+    position: relative;
+    /* color: #0bb0f4; */
+}
